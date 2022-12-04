@@ -1,11 +1,11 @@
-import css from './App.module.css';
-import Sidebar from "./components/Sidebar";
+import "./App.css";
+import SearchBar1 from "./components/SearchBar1";
 
 function App() {
   return (
-    <div className={css.App}>
+    <div className="App">
       {/* Add your components here */}
-      <Sidebar />
+      <SearchBar1 />
     </div>
   );
 }
